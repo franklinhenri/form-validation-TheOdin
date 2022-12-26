@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: 'odin';
+    src: url(./Norse-Bold.otf);
+}
+.container{
+    background-color: #fff4e7;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo-image{
+    width: 30%;
+    background-image: url(imagens/white.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10%;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(0,0,0,0.7);
+    font-family: 'odin';
+    font-size: 6rem;
+    color: white;
+    justify-content: center;
+    padding: 2% 0%;
+}
+.logo > img{
+    height: 8vh;
+}
+.container-formulario{
+    width: 70%;
+    padding-top: 10%;
+}
+.container-formulario > div {
+    display: flex;
+    padding: 1% 0%;
+    font-family: 'odin';
+    color: white;
+    background-color: #c1ad95;
+    align-items: center;
+    padding-left: 10%;
+    font-size: 1rem;
+    height: 10vh;
+}
